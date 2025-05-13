@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+}
+
+*{
+  margin: 0;
+}
+
+:root {
+  --red:#d01c28;
+  --grey: #2e2e2e;
+}
+
+
+button{
+all: unset;
+padding: 6px 16px;
+background: var(--red);
+height:32px;
+color:white;
+font-weight: 500;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+
+.logo img {
+  width: 80px; /* or whatever size you prefer */
+  height: auto;
+}
+
+.brand-icons img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px; /* optional spacing between icons */
+}
+
+
+.container {
+max-width: 1280px;
+margin: 0 auto;
+}
+
+
+.shoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; /* spacing between image and content */
+}
+
+
+.shoes h1 {
+font-weight: 800;
+line-height: 102;
+font-size: 108px;
+}
+
+.shoes p {
+  font-weight: 800;
+  color:var(--grey)
+}
+.shoes-button {
+  display: flex;
+  gap:40px;
+
+}
+.primary-button {
+  background-color: #d01c28;
+}
+.secondary-button {
+  background-color: transparent;
+  color: grey;
+  border: 1px solid gray;
+}
+ 
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.shoes-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.Shoes-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Optional: make it responsive */
+  gap: 2rem;
+}
+
+.Shoes-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.shoes-image {
+  flex: 1;
+  text-align: right;
+}
+
+.shoes-image img {
+  width: 200%;
+  max-width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
